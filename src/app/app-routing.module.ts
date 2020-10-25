@@ -17,6 +17,10 @@ const routes: Routes = [
     path: 'work',
     component: WorkComponent,
   },
+  {
+    path: '**',
+    redirectTo: 'about',
+  },
 ];
 
 @NgModule({
