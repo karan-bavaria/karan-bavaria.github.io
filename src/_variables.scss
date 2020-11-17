@@ -38,19 +38,19 @@ $secondary-light: #def2f1;
 
 @media (min-width: 0px) {
   .card-body-text {
-    font-size: 0.9em;
+    font-size: 0.7em !important;
   }
 }
 
 @media (min-width: 500px) {
   .card-body-text {
-    font-size: 1.1em;
+    font-size: 0.9em !important;
   }
 }
 
 @media (min-width: 1100px) {
   .card-body-text {
-    font-size: 1.3em;
+    font-size: 1em !important;
   }
 }
 

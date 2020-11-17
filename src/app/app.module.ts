@@ -15,6 +15,7 @@ import { IconStackComponent } from './components/work/icon-stack/icon-stack.comp
 import { OtherStuffComponent } from './components/work/other-stuff/other-stuff.component';
 import { WorkTimelineComponent } from './components/work/work-timeline/work-timeline.component';
 import { ExperienceComponent } from './components/work/experience/experience.component';
+import { ProjectsComponent } from './components/work/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ExperienceComponent } from './components/work/experience/experience.com
     OtherStuffComponent,
     WorkTimelineComponent,
     ExperienceComponent,
+    ProjectsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, FontAwesomeModule],
   providers: [],
